@@ -33,7 +33,7 @@ resource symbolicname 'Microsoft.Network/networkSecurityGroups@2023-11-01' = {
           properties:{ 
             access: 'Allow'
             description: 'string'
-            destinationAddressPrefix: *
+            destinationAddressPrefix: '*'
             destinationPortRange: '*'
             direction: 'Outbound'
             priority: 100
