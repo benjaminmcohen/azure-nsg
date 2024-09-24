@@ -35,7 +35,7 @@ resource symbolicname 'Microsoft.Network/networkSecurityGroups@2023-11-01' = {
             description: 'string'
             destinationAddressPrefix: '*'
             destinationPortRange: '*'
-            direction: 'Outbound'
+            direction: 'Inbound'
             priority: 100
             protocol: '*'
             sourceAddressPrefixes: [
